@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    /* padding: 0; */ 
+    /* border: 0; */
+    /* outline: 0; */
+    /* font-size: 100%; */
+    vertical-align: baseline;
+    /* background: transparent; */
+}
+    body{
+        font-family: 'Heebo', sans-serif;
+        color: white;
+     position: relative; 
+z-index: 1;
+        background: #345b9e;
+        /* background: url('https://images.unsplash.com/photo-1576267423429-569309b31e84?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+        background-size: 160%;
+        background-repeat: no-repeat; */
+    }
+    body::before
+    {
+    content: '';
+ display: block; 
+position: absolute;
+left: 0px;
+top: 0px;
+width: 100%;
+height: 100%;
+z-index: -1;
+opacity: 0.2; 
+background-image: url('https://images.unsplash.com/photo-1576267423429-569309b31e84?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+background-repeat: no-repeat;
+background-position: 50% 0;
+background-attachment: fixed;
+background-size:cover;
+}
+    #title{
+        display: block;
+text-align: center;
+margin-bottom: 0px;
+
+    }
+    #description{
+        display: block;
+text-align: center;
+margin-top: 0px;
+        margin-bottom: 25px;
+        font-size: 20px;
+        font-style: italic;
+    }
+    #survey-form{
+        padding-left: 45px;
+        font-size: 26px;
+        background-color:rgb(52, 45, 92);
+        display: flex;
+        color: white;
+        flex-direction: column;
+        border: 1px solid black;
+        margin-left: 445px;
+margin-right: 410px;
+padding: 19px;      
+          /* opacity: 0.8;  */
+        /* justify-content: center;
+        align-items: center; */
+    }
+    .box{
+        display: block;
+width: 96%;
+margin-bottom: 15px;
+padding: 9px;
+border-radius: 7px;
+font-size:15px;
+box-sizing: border-box;
+    }
+    .cr{
+        width: 96%;
+padding: 7px;
+border-radius: 7px;
+    }
+    #cmmnts{
+        border-radius: 7px;
+width: 96%;
+height: 100%;
+font-size: 16px;
+}
+#submit{
+width: 96%;
+margin-top: 8px;
+padding: 9px;
+font-size: 18px;
+border-radius: 21px;
+cursor: pointer;
+margin-bottom: 27px;
+background-color: greenyellow;
+}
+#form-group{
+margin: 0 auto 1.25rem auto;
+padding: 0.25rem;
+}
+p{
+display: flex;
+margin-top: 30px;
+margin-bottom: 0px;
+}
+label
+{
+font-size: 1.125rem;
+margin-bottom: 0.5rem;
+}
+div{
+font-size: 29px;
+}
+#footer{
+    font-family: 'Redressed', cursive;
+display: flex;
+justify-content: center;
+font-size: 18px;
+margin-bottom: -21px;
+margin-top: 2px;
+}
